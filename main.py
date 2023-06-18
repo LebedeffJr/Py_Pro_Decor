@@ -12,10 +12,7 @@ import logging
 #         handler.setFormatter(formatter)
 #         logger.addHandler(handler)
 #         infolog = f'name_function - {old_function.__name__}, arguments - {args}, {kwargs}, result - {old_function(*args, **kwargs)}'
-#         with open('main.log') as log_file:
-#             file_content = log_file.read()
-#         if infolog not in file_content:
-#             logger.info(infolog)
+#         logger.info(infolog)
 #         result = old_function(*args, **kwargs)
 #         return result
 
